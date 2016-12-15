@@ -109,6 +109,16 @@ h4{
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
 }
+.cover .btn:hover{
+  border: 1px solid #f4511e;
+  background-color: #fff !important;
+  color: #f4511e;
+}
+.cover .btn{
+  margin: 15px 0;
+  background-color: #f4511e !important;
+  color: #fff;
+}
 
 .panel-footer{
   background-color: #fff !important;
