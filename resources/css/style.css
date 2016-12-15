@@ -21,9 +21,13 @@ h4{
 
 .jumbotron{
   font-family: Montserrat, sans-serif;
-  background-color: #f4511e;  /*Orange */
+  /*background-color: #f4511e;  /*Orange */
+  background: url("https://static.pexels.com/photos/38892/pexels-photo-38892.jpeg");
+  background-size: cover;
+  height:100%;
+  min-height: 100%;
   color: white;
-  padding: 100px 25px;
+  padding: 220px 25px;
 }
 
 .bg-grey{
