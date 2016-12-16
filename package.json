@@ -1,0 +1,22 @@
+{
+  "name": "hoatran-porfolio",
+  "version": "1.0.0",
+  "description": "Tran Huu Hoa 's personal porfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoatran1403/hoatran-porfolio.git"
+  },
+  "author": "Tran Huu Hoa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hoatran1403/hoatran-porfolio/issues"
+  },
+  "homepage": "https://github.com/hoatran1403/hoatran-porfolio#readme",
+  "dependencies": {
+    "chart.js": "^2.4.0"
+  }
+}
