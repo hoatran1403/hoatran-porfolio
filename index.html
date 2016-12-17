@@ -10,8 +10,10 @@
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="src/Styles/chartStyle.css">
 
   <link rel="stylesheet" href="src/Styles/style.css">
+
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -82,6 +84,11 @@
     <h2>Services</h2>
     <h4>What we offer</h4>
     <br />
+
+    <div class="porfolio-chart">
+      <canvas id="backEndChart" width="700" height="400"></canvas>
+    </div>
+
 
     <div class="row slideanim">
       <div class="col-sm-4">
@@ -327,6 +334,14 @@
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- node_modules -->
+  <script type="text/javascript" src="node_modules/chart.js/dist/Chart.js"></script>
+  <!-- end -->
+
+  <!-- hoatran-porfolio scripts -->
+  <script type="text/javascript" src="src/Scripts/chartControl.js"></script>
   <script type="text/javascript" src="src/Scripts/script.js"></script>
+  <!-- end -->
 </body>
 </html>
