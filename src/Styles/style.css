@@ -22,7 +22,8 @@ h4{
 .jumbotron{
   font-family: Montserrat, sans-serif;
   /*background-color: #f4511e;  /*Orange */
-  background: url("https://static.pexels.com/photos/38892/pexels-photo-38892.jpeg");
+  /*background: url("https://static.pexels.com/photos/38892/pexels-photo-38892.jpeg");*/
+  background: url("/src/Images/bg-road-dark.jpeg");
   background-size: cover;
   height:100%;
   min-height: 100%;
@@ -114,11 +115,12 @@ h4{
   border-bottom-right-radius: 0px;
 }
 .cover .btn:hover{
-  border: 1px solid #f4511e;
+  /*border: 1px solid #f4511e;*/
   background-color: #fff !important;
   color: #f4511e;
 }
 .cover .btn{
+  border: 0;
   margin: 15px 0;
   background-color: #f4511e !important;
   color: #fff;
