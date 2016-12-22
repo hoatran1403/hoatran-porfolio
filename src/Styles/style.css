@@ -6,6 +6,7 @@ body{
 }
 
 h1{
+  font-size: 64px;
   font-family: "Lobster";
   color: rgba(255,255,255,.9) !important;
 }
@@ -37,8 +38,6 @@ h4{
 
 .jumbotron{
   font-family: Montserrat, sans-serif;
-  /*background-color: #f4511e;  /*Orange */
-  /*background: url("https://static.pexels.com/photos/38892/pexels-photo-38892.jpeg");*/
   background: url("/src/Images/bg-road-dark-optimized.jpeg");
   background-size: cover;
   height:100%;
@@ -212,6 +211,20 @@ footer .glyphicon{
 .cd-timeline-content{
   box-shadow: none;
 }
+.cd-timeline-img.cd-picture{
+  background: #3a7530;
+}
+
+.cd-timeline-img.cd-movie {
+  background: #980710;
+}
+
+.contact-content{
+  margin-left: auto;
+  margin-right: auto;
+  width: 190px;
+}
+
 
 .timeline-icon{
   margin-top: 14px;
