@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/hoatran1403/hoatran-porfolio#readme",
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "chart.js": "^2.4.0"
   },
   "devDependencies": {
