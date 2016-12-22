@@ -39,7 +39,7 @@ h4{
   font-family: Montserrat, sans-serif;
   /*background-color: #f4511e;  /*Orange */
   /*background: url("https://static.pexels.com/photos/38892/pexels-photo-38892.jpeg");*/
-  background: url("/src/Images/bg-road-dark.jpeg");
+  background: url("/src/Images/bg-road-dark-optimized.jpeg");
   background-size: cover;
   height:100%;
   min-height: 100%;
@@ -134,12 +134,16 @@ h4{
 .cover .btn:hover{
 
   color: rgba(255,255,255,.6);
+  transition: color .2s;
+  -webkit-transition: color .2s;
 }
 .cover .btn{
   border: 0;
   margin: 15px 0;
   background-color: rgba(0,0,0,.6) !important;
   color: #fff;
+  transition: color .2s;
+  -webkit-transition: color .2s;
 }
 
 .panel-footer{
@@ -178,12 +182,16 @@ h4{
 .navbar li a, .navbar .navbar-brand {
   padding: 20px;
   color: #fff !important;
+  transition: background-color 0.7s;
+  -webkit-transition: background-color 0.7s;
 }
 
 .navbar li a:hover, .navbar li.active a{
   padding: 20px;
   color: rgba(0,0,0,1) !important;
   background-color: rgba(255,255,255,.5) !important;
+  transition: background-color 0.7s;
+  -webkit-transition: background-color 0.7s;
 }
 
 .navbar-default .navbar-toggle{
@@ -197,20 +205,29 @@ footer .glyphicon{
   color: rgb(0,0,0,1);
 }
 
+.frontend-div{
+  padding-left: 100px;
+}
+
+.cd-timeline-content{
+  box-shadow: none;
+}
+
 .timeline-icon{
-  margin-top: 9px;
-  font-size: 40px;
+  margin-top: 14px;
+  font-size: 30px;
   color: white;
 }
 
 .timeline-icon-fcc{
-  margin-top: 13px;
-  font-size: 35px;
+  margin-top: 15px;
+  font-size: 30px;
   color: white;
 }
 
-/* Slide in element */
+/* Slide up in element */
 .slideanim{visibility: hidden;}
+
 .slide{
   /*  The name of the animation  */
   animation-name: slide;
@@ -242,4 +259,17 @@ footer .glyphicon{
     opacity: 1;
     -webkit-transform: translateY(0%);
   }
+}
+
+/* Slide right in element */
+.slideanimRight{visibility: hidden;}
+
+.slideRight{
+  /*  The name of the animation  */
+  animation-name: slideRight;
+  -webkit-animation-name: slideRight;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  /* Make the element visible   */
+  visibility: visible;
 }
